@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+nav {
+  background-color: #282c35; /* Dark background color */
+  padding: 10px 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logoWrap {
+  margin-left: 20px;
+}
+
+.logo {
+  transform: scale(1.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+  filter: brightness(1.2); /* Increase logo brightness */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a white box shadow on hover */
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.inputBox {
+  margin: 8px 0px 0px 0px;
+  padding: 12px;
+  height: 36px;
+  width: 300px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-family: "JetBrains Mono";
+  border-radius: 18px;
+  background-color: #3a3f4a; /* Darker background color */
+  color: #ffffff; /* Text color */
+}
+
+.inputBox:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a white box shadow on hover */
+}
+
+.searchIcon {
+  transform: scale(0.8);
+  margin-left: -30px;
+  cursor: pointer;
+  background-color: #3a3f4a; /* Darker background color */
+  border-radius: 50%;
+  padding: 8px;
+}
+
+/* Add hover effect to search icon */
+.searchIcon:hover {
+  filter: brightness(1.2);
+}
+
+/* Add transition for a smooth effect */
+.inputBox,
+.searchIcon {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Add box shadow to navbar for depth */
+nav {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Name {
+  font-size: 40px;
+  color: white;
+  font-family: "JetBrains Mono";
+  font-weight: bold;
+  margin-left: 90px;
+}

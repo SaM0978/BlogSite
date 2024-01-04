@@ -1,0 +1,25 @@
+.Blog {
+  background: rgb(34, 33, 33);
+  width: max-content;
+  cursor: pointer;
+}
+
+.blog-thumbnail {
+  height: 250px;
+  width: 409px;
+}
+
+.b-r {
+  border-radius: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.title {
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+}
