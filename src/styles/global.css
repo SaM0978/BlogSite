@@ -1,3 +1,7 @@
 .t-center {
   text-align: center;
 }
+
+.jc-center {
+  justify-content: center;
+}

@@ -2,15 +2,13 @@
   background: rgb(34, 33, 33);
   width: max-content;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .blog-thumbnail {
   height: 250px;
   width: 409px;
-}
-
-.b-r {
-  border-radius: 20px;
+  border-top-left-radius: 10px;
 }
 
 .d-flex {
@@ -19,7 +17,29 @@
 
 .title {
   padding: 10px;
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 22px;
   color: white;
+  font-family: "Jetbrains Mono";
+  text-align: center;
+}
+
+.last-keyword {
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.blog-title {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.description {
+  padding: 10px 0;
+  color: white;
+  margin-left: 6px;
 }
